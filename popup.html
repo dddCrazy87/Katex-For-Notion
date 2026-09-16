@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <section class="current">
+    <p class="label">目前的網站</p>
+    <p id="host" class="host">…</p>
+    <p id="status" class="status"></p>
+    <button id="toggle" type="button" hidden></button>
+    <p id="note" class="note" hidden></p>
+  </section>
+
+  <section class="sites">
+    <p class="label">已啟用的網站</p>
+    <ul id="list"></ul>
+    <p id="empty" class="empty" hidden>還沒有啟用任何網站。打開想複製公式的網頁（例如 claude.ai），再按上面的按鈕。</p>
+  </section>
+
+  <script src="sites.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
