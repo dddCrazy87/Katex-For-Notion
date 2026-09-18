@@ -45,7 +45,7 @@
 | Notion 網域（notion.so、notion.site、notion.com） | 刻意不開放啟用 |
 | `chrome://` 等瀏覽器內部頁面 | 無法啟用 |
 
-**判斷網站是否支援**：在公式上按右鍵→「檢查」，如果找得到 `<annotation encoding="application/x-tex">`，就能使用。
+**判斷網站是否支援**：在公式上按右鍵→「檢查」，如果找得到 `<annotation encoding="application/x-tex">`，就能使用（通常皆可支援）。
 
 **為什麼排除 Notion**：Notion 自己也用 KaTeX 顯示公式。如果在 Notion 裡啟用，Notion 內部的複製貼上會被轉成純文字，toggle 等格式會遺失。
 
